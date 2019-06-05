@@ -19,7 +19,7 @@ The style guide source is XML/DITA and it can be found in the `src` folder, as a
 
 An **automated rule** is an instantiation of a **generic rule**, by providing values for the generic rule parameters. The generic rules are defined in our case as Schematron abstract patterns in a library of rules, found in `src/rules/library.sch`. 
 
-The style guide is published automatically by a continuous integration server (Travis) and made accessible through GitHub Pages at https://oxygenxml.github.io/integrated-styleguide. 
+The style guide is published automatically by a continuous integration server (Travis) and made accessible through GitHub Pages at https://tsvete28.github.io/integrated-styleguide. 
 
 If you want to add a new rule, follow the *Edit online* link on each topic and then once you insert a new paragraph you will be offered with the option to either type content or add a rule. If you choose to add a rule then you will be able to select one of the generic rules and then add its parameters and fill in their values to obtain the desired constraint. Saving the topic will allow you to send your change as a pull request and if that is accepted and your change gets committed on the repository then the style guide will be automatically republished. 
 
